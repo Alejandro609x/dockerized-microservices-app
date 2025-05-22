@@ -140,55 +140,6 @@ Actualmente disponibles a través del API Gateway en `http://localhost:8000`:
 - 📂 Volumen compartido `volumes/shared_csv` permite que el API Gateway lea este archivo.
 
 ---
-
-## 📦 Volúmenes Usados
-
-| Servicio     | Volumen                              | Ruta interna en contenedor                   |
-|--------------|---------------------------------------|----------------------------------------------|
-| MySQL        | `mysql_data`                         | `/var/lib/mysql`                             |
-| PostgreSQL   | `postgres_data`                      | `/var/lib/postgresql/data`                   |
-| Compartido   | `shared_csv`                         | `/shared_csv`                                |
-
----
-
-## 🐳 Docker Compose
-
-Orquesta los cinco servicios:
-
-```bash
-docker-compose up --build
-````
-
-Contenedores que levanta:
-
-* `usuarios`
-* `productos`
-* `api-gateway`
-* `db-mysql`
-* `db-postgresql`
-
----
-
-## 🧪 Ejemplos de uso con `curl`
-
-### Crear usuario
-
-```bash
-curl -X POST http://localhost:8000/users \
--H "Content-Type: application/json" \
--d '{"nombre": "Ana", "apellido": "López", "correo": "ana@example.com"}'
-```
-
-### Crear producto
-
-```bash
-curl -X POST http://localhost:8000/products \
--H "Content-Type: application/json" \
--d '{"nombre": "Teclado", "precio": 49.99, "descripcion": "Mecánico retroiluminado"}'
-```
-
----
-
 ## 🛠️ Requisitos
 
 * Docker
@@ -198,7 +149,7 @@ curl -X POST http://localhost:8000/products \
 
 ## 🧹 Limpieza
 
-Para detener y eliminar todos los contenedores, redes, y volúmenes:
+Para detener y eliminar todos los contenedores, redes, y volúmenes recomendado antes de crear o acutualizarl los contenedores:
 
 ```bash
 docker-compose down -v
