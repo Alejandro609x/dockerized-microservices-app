@@ -15,14 +15,50 @@ Este proyecto implementa una arquitectura de microservicios contenerizada con Do
 ## 📁 Estructura del Proyecto
 
 ```
-
-API/
-├── api\_gateway/           # Punto de entrada a los servicios
-├── users\_service/         # CRUD de usuarios con MySQL
-├── products\_service/      # CRUD de productos con PostgreSQL
-├── docker-compose.yml     # Orquestador de todos los servicios
-└── volumes/               # Volúmenes persistentes y compartidos
-
+API
+├── api_gateway                                                      # Punto de entrada a los servicios
+│   ├── Dockerfile
+│   ├── main.py
+│   ├── _pycache_
+│   │   └── main.cpython-311.pyc
+│   └── requirements.txt
+├── docker-compose.yml                                                # Orquestador de todos los servicios
+├── products_service                                                  # Servicio de productos (CRUD) con PostgreSQL — conexión a la base de datos no disponible actualmente
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   └── src
+│       ├── controllers
+│       │   ├── products_controller.py
+│       │   └── _pycache_
+│       │       └── products_controller.cpython-311.pyc
+│       ├── dtos
+│       │   ├── product_dto.py
+│       │   └── _pycache_
+│       │       └── product_dto.cpython-311.pyc
+│       ├── main.py
+│       └── _pycache_
+│           └── main.cpython-311.pyc
+├── users_service                                                    # Servicio de usuarios (CRUD) con MySQL — conexión a la base de datos no disponible actualmente
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   └── src
+│       ├── controllers
+│       │   ├── _pycache_
+│       │   │   └── users_controller.cpython-311.pyc
+│       │   └── users_controller.py
+│       ├── dtos
+│       │   ├── _pycache_
+│       │   │   └── user_dto.cpython-311.pyc
+│       │   └── user_dto.py
+│       ├── main.py
+│       └── _pycache_
+│           └── main.cpython-311.pyc
+└── volumes                                                            # Volúmenes persistentes y compartidos
+    ├── mysql_data
+    ├── postgres_data
+    ├── shared_csv
+    │   └── users.csv
+    └── users.csv
 ````
 
 ---
