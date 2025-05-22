@@ -1,3 +1,4 @@
+#Se puede decir que son las librerias que va a ocupar este servicio, lo ocupa el dockerfile para saber cuales son las que se van a ocupar las puedes poner en el dockerfile directamente pero es mas facil asi parami
 fastapi
 uvicorn
 httpx
