@@ -37,6 +37,8 @@ docker-compose build && docker-compose up
 Este comando también compila y levanta los contenedores, pero **muestra en tiempo real los logs de cada servicio**. La terminal quedará ocupada, pero es útil para detectar errores durante la ejecución.
 En este caso, como no se esperan errores, se recomienda usar la primera opción.
 
+Nota: Los logs almacenan de forma secuencial los eventos o acciones que afectan a un sistema, aplicación o proceso.
+
 ---
 
 ## 🌐 Acceso a los Servicios Web
