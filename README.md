@@ -8,7 +8,7 @@ Este proyecto implementa una arquitectura de microservicios contenerizada con Do
 - 🗃️ Bases de datos independientes para usuarios y productos
 - 📂 Volúmenes para persistencia de datos y compartición de archivos
 
-> ⚠️ **Estado actual**: Todos los contenedores se crean con éxito, pero los microservicios de **usuarios y productos aún no están conectados a sus respectivas bases de datos** (MySQL y PostgreSQL). En este momento utilizan bases locales que se eliminan al reiniciar.
+> ⚠️ **Estado actual**: Todos los contenedores se crean correctamente, incluidos los de MySQL y PostgreSQL. Sin embargo, los microservicios de usuarios y productos aún no están conectados a sus respectivas bases de datos en contenedores (MySQL y PostgreSQL). Actualmente, ambos microservicios utilizan bases de datos locales en memoria, lo que significa que los datos se pierden al reiniciar los servicios.
 
 ---
 
