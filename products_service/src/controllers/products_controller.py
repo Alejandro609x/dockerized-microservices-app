@@ -1,5 +1,8 @@
+# Importamos APIRouter para crear rutas específicas de productos
 from fastapi import APIRouter, HTTPException
+# Importamos List para especificar que una función retorna una lista de productos
 from typing import List
+# Importamos ProductDTO que es la estructura que define cómo es un producto (datos que tiene)
 from src.dtos.product_dto import ProductDTO
 
 # Creamos un router para agrupar las rutas relacionadas con productos
