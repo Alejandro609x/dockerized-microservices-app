@@ -16,14 +16,14 @@ Este proyecto implementa una arquitectura de microservicios contenerizada con Do
 
 ```
 API
-├── api_gateway                                                      # Punto de entrada a los servicios
+├── api_gateway                            # Punto de entrada a los servicios
 │   ├── Dockerfile
 │   ├── main.py
 │   ├── _pycache_
 │   │   └── main.cpython-311.pyc
 │   └── requirements.txt
-├── docker-compose.yml                                                # Orquestador de todos los servicios
-├── products_service                                                  # Servicio de productos (CRUD) con PostgreSQL — conexión a la base de datos no disponible actualmente
+├── docker-compose.yml                      # Orquestador de todos los servicios
+├── products_service                        # Servicio de productos (CRUD) con PostgreSQL — conexión a la base de datos no disponible actualmente
 │   ├── Dockerfile
 │   ├── requirements.txt
 │   └── src
@@ -38,7 +38,7 @@ API
 │       ├── main.py
 │       └── _pycache_
 │           └── main.cpython-311.pyc
-├── users_service                                                    # Servicio de usuarios (CRUD) con MySQL — conexión a la base de datos no disponible actualmente
+├── users_service                              # Servicio de usuarios (CRUD) con MySQL — conexión a la base de datos no disponible actualmente
 │   ├── Dockerfile
 │   ├── requirements.txt
 │   └── src
@@ -53,7 +53,7 @@ API
 │       ├── main.py
 │       └── _pycache_
 │           └── main.cpython-311.pyc
-└── volumes                                                            # Volúmenes persistentes y compartidos
+└── volumes                                     # Volúmenes persistentes y compartidos
     ├── mysql_data
     ├── postgres_data
     ├── shared_csv
