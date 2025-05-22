@@ -53,8 +53,12 @@ PYTHONDONTWRITEBYTECODE=1 python mi_script.py
 ### ✅ Conclusión
 
 `__pycache__` es como la **memoria cache de tu código**:
+
 📂 guarda versiones rápidas de tus scripts
+
 ⚡ acelera el arranque
+
 🧹 se puede eliminar
+
 🛡️ mejor ignorarlo en Git
 
