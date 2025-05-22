@@ -14,6 +14,8 @@ Este proyecto implementa una arquitectura de microservicios contenerizada con Do
 
 ## 📁 Estructura del Proyecto
 
+Al descomprimir el archivo Microservicios.zip, se generará un directorio llamado Microservicios, dentro del cual encontrarás la carpeta API. Esta carpeta contiene la estructura del proyecto, la cual se muestra a continuación:
+
 ```
 API
 ├── api_gateway                            # Punto de entrada a los servicios
