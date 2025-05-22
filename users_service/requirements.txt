@@ -1,3 +1,4 @@
+#Las librerias que se van a utilizar este archivo lo usa el Dockerfile de este servicio para saber que va a instalar
 fastapi
 uvicorn
 pydantic[email]
