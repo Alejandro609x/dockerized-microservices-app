@@ -60,6 +60,26 @@ API
     │   └── users.csv
     └── users.csv
 ````
+🔹 Nota: CRUD es el acrónimo de Create (Crear), Read (Leer), Update (Actualizar) y Delete (Eliminar), que representan las operaciones básicas para gestionar datos en una aplicación.
+
+Create (Crear): Añadir nuevos registros o datos.
+
+Read (Leer): Consultar o recuperar información existente.
+
+Update (Actualizar): Modificar datos existentes.
+
+Delete (Eliminar): Borrar registros.
+
+---
+Por ejemplo, en un sistema de gestión de usuarios:
+
+Crear un usuario nuevo → POST /usuarios
+
+Consultar un usuario → GET /usuarios/{id}
+
+Actualizar los datos de un usuario → PUT /usuarios/{id}
+
+Eliminar un usuario → DELETE /usuarios/{id}
 
 ---
 
