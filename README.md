@@ -73,7 +73,7 @@ Update (Actualizar): Modificar datos existentes.
 Delete (Eliminar): Borrar registros.
 
 ---
-Por ejemplo, en un sistema de gestión de usuarios:
+Por ejemplo, en un sistema de gestión de usuarios como el nuestro:
 
 Crear un usuario nuevo → POST /usuarios
 
