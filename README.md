@@ -164,6 +164,8 @@ docker-compose down -v
 * [ ] Persistencia de datos confirmada tras reinicios
 * [ ] Validación de lectura del archivo `users.csv` desde API Gateway
 
+El archivo Microservicios.zip se encuentra disponible en este repositorio. Para descargarlo, dirígete al directorio llamado Microservicios.zip. En la esquina superior derecha verás un recuadro desplegable; haz clic sobre él y selecciona la opción Download para descargar el archivo .zip.
+
 ---
 
 ## 👨‍💻 Autor
