@@ -40,3 +40,13 @@ Una conexión es el vínculo que permite a un microservicio comunicarse con otro
   DB_USER=root
   DB_PASSWORD=secret
   DB_NAME=users_db
+
+Se crean los contenedores de base de datos pero no hay conexion con los 2 contenedores de usuario y productos pero si hay entre api y los servicios de usuario y productos:
+
+Contenedor de Posgres:
+
+![Pos](Imagenes/Pos.jpeg)
+
+Contenedor MySql:
+
+![My](Imagenes/My.jpeg)
