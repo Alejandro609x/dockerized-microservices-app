@@ -171,3 +171,14 @@ El archivo Microservicios.zip se encuentra disponible en este repositorio. Para 
 ![Descarga](Imagenes/Descarga.png)
 
 ---
+
+En cada directorio de este repositorio encontrara las subcarpetas de API  con su respectiva estructura y una explicación detallada. Por ejemplo, el directorio api_gateway contiene todos los archivos relacionados con el API Gateway, incluyendo su código fuente y configuración. A continuación, se muestra un ejemplo del contenido de este directorio:
+
+├── api_gateway                            # Punto de entrada a los servicios
+│   ├── Dockerfile
+│   ├── main.py
+│   ├── _pycache_
+│   │   └── main.cpython-311.pyc
+│   └── requirements.txt
+
+---
